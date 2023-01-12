@@ -1,3 +1,6 @@
+-- Modified support for Krnl and others
+
+--LIBRARY START
 --Services
 getgenv().runService = game:GetService"RunService"
 getgenv().textService = game:GetService"TextService"
@@ -2703,4 +2706,6 @@ local function promptLib()
         Prompt:_open(Message)
         return Prompt,Screen
     end
-end
+end 
+
+--LIBRARY END
